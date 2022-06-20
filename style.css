@@ -1,0 +1,60 @@
+.image{float:left; border-width: thick; border-radius: 100px;}
+/*first heading*/
+.h11{font-size: 32px; font-weight: bolder; font-family: cursive; text-decoration: underline;}
+/*second heading*/
+.h22{font-size: 20px; color: rgb(89, 187, 187); margin-top: -10px;}
+/* now its third heading*/
+.h111{margin-left: 300px; font-size: 40px; color: darkslategray; font-weight: bolder;}
+.h11:hover {color:brown; font-size: 50px; font-family: monospace;}
+/* it is a passage */
+.passage{margin-left: 300px; font-size: 32px; color: darkslategray; font-weight: bolder;}
+/* it is my resume */
+
+.resume{ border-width: thick;  font-family: fantasy;
+font-size: 32px; color: white; border-style: double; display: inline-block; height: 150px; width: 150px; 
+text-align: center; border-radius: 50%; padding-top: 50px; background-color: crimson;
+padding-top: 50px;}
+.resume:hover {background-color: darkorchid; font-size: 40px; font-family: monospace;}
+/* IT'S MY ACCOUNT */
+.project{color: brown; border-width: thick; display: inline-block; height: 150px; width: 150px; 
+    border-radius: 50%;  margin-left: 50px; margin-top: -2px; border-style: double;
+     text-align: center;  font-size: 32px;  margin-bottom: 100px; padding-top: 40px; color: white;
+background-color: pink; font-family: fantasy;}
+.project:hover {background-color: indianred;  font-family: monospace; font-size: 32px;}
+/* its my work */
+
+.work{text-align: center; font-size: 32px; padding-top: 40px; 
+margin-left: 50px;  background-position: no-repeat; width:150px; 
+height: 150px; border-radius:50%; background-color:fuchsia; display: inline-block; border-style: double;
+font-family: fantasy;}
+/* it is the body styling */
+body{background-color: lightgrey;}
+
+.work:hover {background-color:orangered; font-size: 50px; font-family: monospace;}
+/* its a passage about me */
+.me{font-size: 28px; text-align: center; margin-top: -60px; margin-left: -300px;}
+/* first picture and description */
+.logo{font-size: 28px; text-align: left; display: inline-block; margin-left: -20px; padding-left: 30px;
+     padding-top: -5px; text-decoration: underline;}
+     .logo:hover {font-size: 32px;}
+     .num{text-align: left; margin-left: -5px; font-size: 20px; padding-top: -1000px; padding-left: 80px; 
+          text-decoration: underline; }
+          .num:hover {font-size: 28px;}
+          /* second pic and discription */
+      .image1{margin-right: -100px; padding-left: -5px; display: inline-block; 
+     padding-right: -80px; border-width: thick; border-radius: 70px;}
+     .text{font-size: 24px; text-align: center;}
+     .text:hover {font-size: 28px;}
+     .new{display: inline-block; margin-left: 100px; margin-bottom: 20px; padding-left: 100px; 
+               border-width: thick; border-radius: 70px;} 
+     .email{text-align: center; margin-left: 80px; font-size: 24px; text-decoration: underline;
+      margin-top: -50px;}
+                 .email:hover {font-size: 32px;}
+           /* last div for colour */
+     .color{ border-width: thick; border-style: solid; background-color:brown; padding-left: 70px;}
+     /* third pic and discriptioon */
+     .adress{display: inline-block; margin-left: 50px; font-size: 28px; }
+     .loc{text-align: left; margin-left: 5px; font-size: 28px; text-decoration: underline;}
+     .loc:hover {font-size: 32px;}
+     .multan{text-align: left; margin-left: 70px; font-size: 20px; text-decoration: underline;}
+     .multan:hover { font-size: 28px;}
