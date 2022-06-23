@@ -58,3 +58,5 @@ body{background-color: lightgrey;}
      .loc:hover {font-size: 32px;}
      .multan{text-align: left; margin-left: 70px; font-size: 20px; text-decoration: underline;}
      .multan:hover { font-size: 28px;}
+     /* media query */
+     @media screen{body{min-width: 1044px;}}
