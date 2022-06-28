@@ -8,6 +8,7 @@
 .h11:hover {color:brown; font-size: 50px; font-family: monospace;}
 /* it is a passage */
 .passage{margin-left: 300px; font-size: 32px; color: darkslategray; font-weight: bolder;}
+.box{display: flex; justify-content: space-evenly}
 /* it is my resume */
 
 .resume{ border-width: thick;  font-family: fantasy;
@@ -16,7 +17,7 @@ text-align: center; border-radius: 50%; padding-top: 50px; background-color: cri
 padding-top: 50px;}
 .resume:hover {background-color: darkorchid; font-size: 40px; font-family: monospace;}
 /* IT'S MY ACCOUNT */
-.project{color: brown; border-width: thick; display: inline-block; height: 150px; width: 150px; 
+.project{color: brown; border-width: thick; display: inline-block; height: 160px; width: 150px; 
     border-radius: 50%;  margin-left: 50px; margin-top: -2px; border-style: double;
      text-align: center;  font-size: 32px;  margin-bottom: 100px; padding-top: 40px; color: white;
 background-color: pink; font-family: fantasy;}
@@ -32,6 +33,7 @@ body{background-color: lightgrey;}
 
 .work:hover {background-color:orangered; font-size: 50px; font-family: monospace;}
 /* its a passage about me */
+.pas{padding-left: 200px;}
 .me{font-size: 28px; text-align: center; margin-top: -60px; margin-left: -300px;}
 /* first picture and description */
 .logo{font-size: 28px; text-align: left; display: inline-block; margin-left: -20px; padding-left: 30px;
@@ -59,5 +61,25 @@ body{background-color: lightgrey;}
      .multan{text-align: left; margin-left: 70px; font-size: 20px; text-decoration: underline;}
      .multan:hover { font-size: 28px;}
      /* media query */
-     @media screen{body{min-width: 1440px;
-     }}
+     @media screen and (max-width: 1024px)
+     {.color{width: 90%;}
+                  .adress{padding-left: 80px;}}
+
+                  @media screen and (max-width:786px)
+                  {.resume{width: 100px; height: 80px; font-size: 20px; text-align: center;}
+               .project{width: 100px; height: 80px; font-size: 20px; text-align: center; }
+          .work{width: 100px; height: 80px; font-size: 20px; text-align: center;}}
+
+          @media screen and (max-width:375px)
+          {.image{width: 150px; height: 150px;}
+     .pas{font-size: larger;
+          text-align: justify; 
+          padding-left: 300px;}
+     .passage{margin-left: 0px;}
+     .color{padding-left: 10px; width: 100%; height: 500px; display: flex; flex-direction: column;}
+.num{width: 100%;}
+.text{padding-right: 100px;}
+.adress{width: 100%; margin-left: -90px;}
+.new{ margin-left: -100px; padding-top: 80px;}
+.email{margin-right: 300px; margin-top: 200px;}
+.multan{margin-right: 20px;}}
